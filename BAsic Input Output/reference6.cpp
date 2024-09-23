@@ -5,7 +5,10 @@ using namespace std;
 //*>>>>>>>>>>>>>>>> Reference variables >>>>>>>>>>>>>*/
 
 //Rohan - > Montu -> rohu -> dangerous gamer
-int main () {
+
+int main ()
+
+{
    
    float x = 455;
    float & y = x;
@@ -16,12 +19,15 @@ int main () {
 
    //Type casting ....................
 
+
+
    int a = 45;
    float b = 45.47;
    cout<<"The value of a is : " <<(float)a <<endl;
    cout<<"The value of the b is : " <<(int)b<<endl;
 
    int c = int(b);
+
    cout<<"The exp is: "<<a+b<<endl;
    cout<<"The expression is: " <<a + int(b)<<endl;
     return 0;
